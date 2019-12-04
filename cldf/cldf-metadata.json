@@ -15,13 +15,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/powerma",
-            "dc:created": "e8a151a"
+            "dc:created": "ccf5fab"
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data/",
-            "dc:created": "v2.2.1a"
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/lingulist/glottolog-data",
+            "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -31,9 +31,9 @@
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/lingulist/glottolog-data",
-            "dc:created": "v4.0"
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data/",
+            "dc:created": "v2.2.0"
         }
     ],
     "prov:wasGeneratedBy": [
