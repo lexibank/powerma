@@ -1,78 +1,69 @@
-# coding=utf-8
-from __future__ import unicode_literals, print_function
-
 import attr
 import lingpy
 from pycldf.sources import Source
 
-from clldutils.path import Path
+from pathlib import Path
 from clldutils.misc import slug
-from pylexibank.dataset import Metadata, Concept, Language
+from pylexibank import Concept, Language
 from pylexibank.dataset import Dataset as BaseDataset
-from pylexibank.util import pb, get_url, textdump
-import json
-from urllib import request
+from pylexibank import progressbar
 
-
-#@attr.s
-#class OurConcept(Concept):
-#    TBL_ID = attr.ib(default=None)
-#    Coverage = attr.ib(default=None)
-#
-#@attr.s
-#class OurLanguage(Language):
-#    Name_in_Text = attr.ib(default=None)
-#    Name_in_Source = attr.ib(default=None)
-#    Subgroup = attr.ib(default=None)
-#    Coverage = attr.ib(default=None)
-#    Longitude = attr.ib(default=None)
-#    Latitude = attr.ib(default=None)
-#    Source = attr.ib(default=None)
-
-    
+@attr.s
+class CustomLanguage(Language):
+    SubGroup = attr.ib(default=None)
 
 class Dataset(BaseDataset):
     dir = Path(__file__).parent
     id = 'powerma'
+    language_class = CustomLanguage
 
 
-    def cmd_download(self, **kw):
-        self.raw.download(
+    def cmd_download(self, args):
+        self.raw_dir.download(
                 "http://edictor.digling.org/triples/get_data.py?file=signalphabets&remote_dbase=signalphabets",
                 'signalphabets.tsv'
                 )
 
-    def cmd_install(self, **kw):
-        wl = lingpy.Wordlist(self.raw.posix('signalphabets.tsv'))
+    def cmd_makecldf(self, args):
+        wl = lingpy.Wordlist(str(self.raw_dir / 'signalphabets.tsv'))
 
-        with self.cldf as ds:
-            cids, lids = {}, {}
-            for i, c in enumerate(wl.rows):
-                ds.add_concept(
-                        ID=str(i+1),
-                        Name=c
-                        )
-                cids[c] = str(i+1)
-            for i, l in enumerate(wl.cols):
-                ds.add_language(
-                        ID=str(i+1),
-                        Name=l
-                        )
-                lids[l] = str(i+1)
+        concepts, sources = {}, {}
+        for i, c in enumerate(wl.rows):
+            args.writer.add_concept(
+                    ID=str(i+1),
+                    Name=c,
+                    )
+            concepts[c] = str(i+1)
+        for language in self.languages:
+            args.writer.add_language(
+                    ID=language['Name_in_Database'],
+                    Name=language['Name'],
+                        Latitude=language['Latitude'],
+                        Longitude=language['Longitude'],
+                        Glottocode=language['Glottolog'],
+                        SubGroup=language['SubGroup'],
+                    )
+            sources[language['Name_in_Database']] = language['Source']
+        sources['Ukranian_SL'] = 'Lydell2018'
+        languages = {language: language for language in sources}
+        languages['Ukranian_SL'] = 'Ukrainian_SL'
+        
+        args.writer.add_sources(*[x for x in self.raw_dir.read_bib() if x.id
+            in sources])
 
-            for i, c, l, h1, h2, t, cid in pb(wl.iter_rows(
-                    'concept', 'doculect', 'handshape_1', 
-                    'handshape_2', 'tokens', 'cogid')):
-                for row in ds.add_lexemes(
-                        Value = h1+' '+h2,
-                        Language_ID=lids.get(l, l),
-                        Parameter_ID=cids.get(c, c),
-                        Form=t,
-                        Cognacy=cid
-                        ):
-                    ds.add_cognate(
-                            lexeme=row,
-                            Cognateset_ID=cid,
-                            )
+        for i, c, l, h1, h2, t, cid in progressbar(wl.iter_rows(
+                'concept', 'doculect', 'handshape_1', 
+                'handshape_2', 'tokens', 'cogid'), desc='makecldf'):
+            row = args.writer.add_form(
+                    Value = h1+' '+h2,
+                    Language_ID=languages[l],
+                    Parameter_ID=concepts[c],
+                    Form=t,
+                    Source=sources[l]
+                    )
+            args.writer.add_cognate(
+                        lexeme=row,
+                        Cognateset_ID=cid,
+                        )
 
 

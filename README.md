@@ -11,20 +11,14 @@ Available online at http://dighl.github.io/signalphabets/
 ## Statistics
 
 
-
-![Glottolog: 0%](https://img.shields.io/badge/Glottolog-0%25-red.svg "Glottolog: 0%")
+![Glottolog: 97%](https://img.shields.io/badge/Glottolog-97%25-green.svg "Glottolog: 97%")
 ![Concepticon: 0%](https://img.shields.io/badge/Concepticon-0%25-red.svg "Concepticon: 0%")
-![Source: 0%](https://img.shields.io/badge/Source-0%25-red.svg "Source: 0%")
+![Source: 100%](https://img.shields.io/badge/Source-100%25-brightgreen.svg "Source: 100%")
 
 - **Varieties:** 76
 - **Concepts:** 107
 - **Lexemes:** 2,124
+- **Sources:** 64
 - **Synonymy:** 1.02
 - **Cognacy:** 2,124 cognates in 394 cognate sets (185 singletons)
 - **Cognate Diversity:** 0.14
-
-## Possible Improvements:
-
-
-
-- Entries missing sources: 2124/2124 (100.00%)

@@ -1,44 +1,77 @@
-"Abbreviation","English Name","Native Name","ISO 639-3,Glottolog"
-"AlbSL","Albanian Sign Language","Gjuha e Shenjave Shqipe","sqk","alba1271"
-"ASL","American Sign Language","American Sign Language","ase","amer1248"
-"Auslan","Australian Sign Language","Australian Sign Language","asf","aust1271"
-"B1620","Reduction de las Letras by Juan Pablo Bonet"
-"BSL","British Sign Language","British Sign Language","bfi","brit1235"
-"BZE","Bulgarian Sign Language","български жестомимичен език","bqn","bulg1240"
-"CzSL","Czech Sign Language","Ceský Znakový Jazyk","cse","czec1253"
-"DGS","German Sign Language","Deutsche Gebärdensprache","gsg","germ1281"
-"DTS","Danish Sign Language","Dansk Tegnsprog","dsl","dani1246"
-"ENG","Greek Sign Language","Ελληνική νοηματική γλώσσα","gss","gree1271"
-"EVK","Estonian Sign Language","Eesti viipekeel","eso","esto1238"
-"FinSL","Finnish Sign Language","Suomalainen viittomakieli","fse","finn1310"
-"HZJ","Croatian Sign Language","Izaberi jezik","csq","croa1242"
-"IndSL","Indian Sign Language","भारतीय सांकेतिक भाषा","ins","indi1237"
-"IrSL","Irish Sign Language","Teanga Chomharthaíochta na hÉireann","isg","iris1235"
-"IS","International Sign","International Sign","ils","inte1259"
-"ITM","Icelandic Sign Language","Íslenskt Táknmál","icl","icel1236"
-"LGK","Lithuanian Sign Language","Lietuvių gestų kalba","lls","lith1236"
-"LGP","Portuguese Sign Language","Língua gestual portuguesa","psr","port1277"
-"Libras/LSB","Brazilian Sign Language","Língua Brasileira de Sinais","bzs","braz1236"
-"LIS","Italian Sign Language","Lingua dei Segni Italiana","ise","ital1275"
-"LIU","Jordanian Sign Language","لغة الإشارة الأردنية","jos","jord12"
-"LSC","Catalan Sign Language","Llengua de signes catalana","csc","cata1287"
-"LSE","Spanish Sign Language","Lengua de Signos Española","ssp","span1263"
-"LSF","French Sign Language","Langue des signes française","fsl","fren1243"
-"LSFB","French-Belgian Sign Language","Langue des signes de Belgique Francophone","sfb","lang1248"
-"LSL","Latvian Sign Language","Latviešu zīmju valodas","lsl","latv1245"
-"LSM","Mexican Sign Language","Lengua de Señas Mexicana","mfs","mexi1237"
-"LSQ","Quebec Sign Language","Langue des signes québécoise","fcs","queb1245"
-"MJ","Hungarian Sign Language","Magyar Jelnyelv","hsh","hung1263"
-"NGT","Sign Language of the Netherlands","Nederlandse Gebarentaal","dse","dutc1253"
-"NTS","Norwegian Sign Language","Norsk tegnspråk","nsl","norw1261"
-"NZSL","New Zealand Sign Language","New Zealand Sign Language","nzs","newz1236"
-"OGS","Austrian Sign Language","Österreichische Gebärdensprache","asq","aust1252"
-"PJM","Polish Sign Language","Polski Język Migowy","pso","poli1259"
-"PSL","Pakistan Sign Language","پاکستانی اشارتی زبان","pks","paki1242"
-"RZhIa","Russian Sign Language","Русский Жестовый Язык","rsl","russ1255"
-"STS","Swedish Sign Language","Svenskt teckenspråk","swl","swed1236"
-"TID","Turkish Sign Language","Türk İşaret Dili","tsm","turk1288"
-"UZhIa/UzhM","Ukrainian Sign Language","Українська жестова мова","ukl","ukra1235"
-"VGT","Flemish Sign Language","Vlaamse Gebarentaal","vgt","vlaa1235"
-"Y1593","Refugium Infirmorum by Melchor de Yebra"
-"ZEA","Afghan Sign Language","زبان اشارهی افغانی","afg","afgh1239"
+Name_in_Database,Source,SubGroup,Color,Abbreviation,Name,Latitude,Longitude,Abbreviation,Native_Name,ISO6393,Glottolog
+Afghan_SL,Zea2001,Afghan-Jordanian,9900cc,ZEA,Afghan Sign Language,34.434167,70.447778,ZEA,زبان اشارهی افغانی,afg,afgh1239
+Albanian_SL,Daktilim2019,Albanian,0,AlbSL,Albanian Sign Language,41.328889,19.817778,AlbSL,Gjuha e Shenjave Shqipe,sqk,alba1271
+American_1821,TennantBrown1998,French,00cccc,ASL_1821,American Sign Language,40.73061,-73.935242,ASL,American Sign Language,ase,amer1248
+American_1886,Akerly1821,French,00cccc,ASL_1886,American Sign Language,38.895,-77.0366,ASL,American Sign Language,ase,amer1248
+American_1918,Gordon1886,French,00cccc,ASL_1918,American Sign Language,41.587830982,-93.61916419,ASL,American Sign Language,ase,amer1248
+American_SL,Long1918,French,00cccc,ASL,American Sign Language,33.8117,-81.6121,ASL,American Sign Language,ase,amer1248
+Australian_SL,Johnston2014,British,0000ff,Auslan,Australian Sign Language,-30,145,Auslan,Australian Sign Language,asf,aust1271
+Austrian_1786,May1789,Austrian,9900,ÖGS_1786,Austrian Sign Language,48.210033,16.363449,OGS,Österreichische Gebärdensprache,asq,aust1252
+Austrian_1823,Venus1823,Austrian,9900,ÖGS_1823,Austrian Sign Language,48.210033,16.363449,OGS,Österreichische Gebärdensprache,asq,aust1252
+Austrian_1839,Czech1839,French,00cccc,ÖGS_1839,Austrian Sign Language,48.210033,16.363449,OGS,Österreichische Gebärdensprache,asq,aust1252
+Austrian_SL,Lydell2018,Austrian,9900,ÖGS,Austrian Sign Language,48.1197,16.225,OGS,Österreichische Gebärdensprache,asq,aust1252
+Bonet_1620,Bonet1620,Spanish,ff00ff,B_1620,Bonet 1620,40.416775,-3.70379,B1620,,,
+Brazilian_1875,DaGama1875,French,00cccc,LSB_1875,Brazilian Sign Language,-22.909897,-43.185348,Libras/LSB,Língua Brasileira de Sinais,bzs,braz1236
+Brazilian_SL,Lydell2018,French,00cccc,LSB,Brazilian Sign Language,-15.5,-48,Libras/LSB,Língua Brasileira de Sinais,bzs,braz1236
+British_SL,Brien1992,British,0000ff,BSL,British Sign Language,51.6688,-0.4431,BSL,British Sign Language,bfi,brit1235
+Bulgarian_SL,Lydell2018,Russian,ff0000,BŽE,Bulgarian Sign Language,42.7918,25.0026,BZE,български жестомимичен език,bqn,bulg1240
+Catalan_SL,PerelloFrigola1998,Spanish,ff00ff,LSC,Catalan Sign Language,41.63,-1.97,LSC,Llengua de signes catalana,csc,cata1287
+Croatian_SL,Kuhn_etal2006,British,0000ff,HZJ,Croatian Sign Language,45.5,16.8,HZJ,Izaberi jezik,csq,croa1242
+Czech_SL,Hudakova2008,British,0000ff,CzSL,Czech Sign Language,50.01,14.48,CzSL,Ceský Znakový Jazyk,cse,czec1253
+Danish_1808,Castberg1818,Austrian,9900,DTS_1808,Danish Sign Language,55.676098,12.568337,DTS,Dansk Tegnsprog,dsl,dani1246
+Danish_1871,Nyegaard1871,Austrian,9900,DTS_1871,Danish Sign Language,55.676098,12.568337,DTS,Dansk Tegnsprog,dsl,dani1246
+Danish_1907,Jorgensen1907,Austrian,9900,DTS_1907,Danish Sign Language,55.676098,12.568337,DTS,Dansk Tegnsprog,dsl,dani1246
+Danish_1926,Doevstumme1926,Austrian,9900,DTS_1926,Danish Sign Language,55.676098,12.568337,DTS,Dansk Tegnsprog,dsl,dani1246
+Danish_1967,Plum_etal1967,Austrian,9900,DTS_1967,Danish Sign Language,55.676098,12.568337,DTS,Dansk Tegnsprog,dsl,dani1246
+Danish_SL,Ordbog2019,Austrian,9900,DTS,Danish Sign Language,55.83,12.32,DTS,Dansk Tegnsprog,dsl,dani1246
+Dutch_1790,Moerser1790,French,00cccc,NGT_1790,Sign Language of the Netherlands,53.2193835,6.5665018,NGT,Nederlandse Gebarentaal,dse,dutc1253
+Dutch_1820,VanHeijningenBosch1823,French,00cccc,NGT_1820,Sign Language of the Netherlands,53.2193835,6.5665018,NGT,Nederlandse Gebarentaal,dse,dutc1253
+Dutch_SL,Zwitserlood2010,French,00cccc,NGT,Sign Language of the Netherlands,52.13,4.91,NGT,Nederlandse Gebarentaal,dse,dutc1253
+Estonian_1988,Toom1988,Russian,ff0000,EVK_1988,Estonian Sign Language,59.436962,24.753574,EVK,Eesti viipekeel,eso,esto1238
+Estonian_SL,Eesti2014,Russian,ff0000,EVK,Estonian Sign Language,58.95,24.57,EVK,Eesti viipekeel,eso,esto1238
+Finnish_SL,Suvi1998,French,00cccc,FinSL,Finnish Sign Language,60.66,25.07,FinSL,Suomalainen viittomakieli,fse,finn1310
+Flemish_SL,Vertaal2012,French,00cccc,VGT,Flemish Sign Language,50.8,4.31,VGT,Vlaamse Gebarentaal,vgt,vlaa1235
+French_1800,Alphabet1800,French,00cccc,LSF_1800,French Sign Language,48.845006,2.341291,LSF,Langue des signes française,fsl,fren1243
+French_1803,Sicard1800,French,00cccc,LSF_1803,French Sign Language,48.845006,2.341291,LSF,Langue des signes française,fsl,fren1243
+French_1815,DeLadebat1815,French,00cccc,LSF_1815,French Sign Language,48.845006,2.341291,LSF,Langue des signes française,fsl,fren1243
+French_1856,Pelissier1856,French,00cccc,LSF_1856,French Sign Language,48.845006,2.341291,LSF,Langue des signes française,fsl,fren1243
+French_SL,Lydell2018,French,00cccc,LSF,French Sign Language,47,3,LSF,Langue des signes française,fsl,fren1243
+French-Belgian_SL,Sonnemans2016,French,00cccc,LSFB,French-Belgian Sign Language,50.8,4.31,LSFB,Langue des signes de Belgique Francophone,sfb,lang1248
+German_1820,Alle1821,Austrian,9900,DGS_1820,German Sign Language,48.79947,9.79809,DGS,Deutsche Gebärdensprache,gsg,germ1281
+German_1909,Reuschert1909,Austrian,9900,DGS_1909,German Sign Language,51.343479,12.387772,DGS,Deutsche Gebärdensprache,gsg,germ1281
+German_1916,Riemann1916,Austrian,9900,DGS_1916,German Sign Language,52.520008,13.404954,DGS,Deutsche Gebärdensprache,gsg,germ1281
+German_SL,Lydell2018,Austrian,9900,DGS,German Sign Language,50.82,7.3,DGS,Deutsche Gebärdensprache,gsg,germ1281
+Greek_SL,Hatzopoulou2008,French,00cccc,ΕΝΓ,Greek Sign Language,38.05,23.38,ENG,Ελληνική νοηματική γλώσσα,gss,gree1271
+Hungary_1827,Schwarzer1827,Austrian,9900,MJ_1827,Hungarian Sign Language,47.77591,19.13612,MJ,Magyar Jelnyelv,hsh,hung1263
+Icelandic_1857,Sigurdsson1857,Austrian,9900,ÍTM_1857,Icelandic Sign Language,65.68353,-18.0878,ITM,Íslenskt Táknmál,icl,icel1236
+Icelandic_SL,Lydell2018,Austrian,9900,ÍTM,Icelandic Sign Language,64.17,-20.27,ITM,Íslenskt Táknmál,icl,icel1236
+Indian_SL,Lydell2018,British,0000ff,IndSL,Indian Sign Languaage,27.52,79.68,IndSL,भारतीय सांकेतिक भाषा,ins,indi1237
+International_MA,Rubino_etal1975,French,00cccc,IS,International Sign,49.74,-30.08,IS,International Sign,ils,inte1259
+Irish_SL,LeMaster2002,French,00cccc,IrSL,Irish Sign Language,53.31,-6.37,IrSL,Teanga Chomharthaíochta na hÉireann,isg,iris1235
+Italian_1897,Fornari1897,French,00cccc,LIS_1897,Italian Sign Language,45.464211,9.191383,LIS,Lingua dei Segni Italiana,ise,ital1275
+Italian_SL,Magarotto1996,French,00cccc,LIS,Italian Sign Language,42.73,12.43,LIS,Lingua dei Segni Italiana,ise,ital1275
+Jordanian_SL,Hendriks2008,Afghan-Jordanian,9900cc,LIU,Jordanian Sign Language,31.82,36.08,LIU,لغة الإشارة الأردنية,jos,
+Latvian_SL,Lydell2018,Polish,ff9900,LSL,Latvian Sign Language,56.93,24.49,LSL,Latviešu zīmju valodas,lsl,latv1245
+Lithuanian_SL,Lydell2018,Polish,ff9900,LGK,Lithuainian Sign Language,55.25,23.88,LGK,Lietuvių gestų kalba,lls,lith1236
+Mexican_SL,Lydell2018,French,00cccc,LSM,Mexican Sign Language,19.75,-98.5,LSM,Lengua de Señas Mexicana,mfs,mexi1237
+NewZealand_SL,McKee_etal2011,British,0000ff,NZSL,New Zealand Sign Language,-39.29,175.77,NZSL,New Zealand Sign Language,nzs,newz1236
+Norwegian_1893,Svendsen1893,Austrian,9900,NTS_1893,Norwegian Sign Language,59.911491,10.757933,NTS,Norsk tegnspråk,nsl,norw1261
+Norwegian_1900,Bruun1900,Austrian,9900,NTS_1900,Norwegian Sign Language,63.446827,10.421906,NTS,Norsk tegnspråk,nsl,norw1261
+Norwegian_1955,Nts1955,Austrian,9900,NTS_1955,Norwegian Sign Language,63.446827,10.421906,NTS,Norsk tegnspråk,nsl,norw1261
+Norwegian_SL,Tegnordbok2016,Norwegian,0,NTS,Norwegian Sign Language,60.77,10.24,NTS,Norsk tegnspråk,nsl,norw1261
+Pakistan_SL,SabirKhan_etal2014,French,00cccc,PSL,Pakistan Sign Language,28.07,67.88,PSL,پاکستانی اشارتی زبان,pks,paki1242
+Polish_1879,Hollaka1879,Austrian,9900,PJM_1879,Polish Sign Language,52.237049,21.017532,PJM,Polski Język Migowy,pso,poli1259
+Polish_SL,Lacheta_etal2016,Polish,ff9900,PJM,Polish Sign Language,52,20.76,PJM,Polski Język Migowy,pso,poli1259
+Portuguese_SL,Lydell2018,Swedish,0099ff,LGP,Portuguese Sign Language,38.55,-8.53,LGP,Língua gestual portuguesa,psr,port1277
+Quebec_SL,Quebec2019,French,00cccc,LSQ,Quebec Sign Language,46,-74.87,LSQ,Langue des signes québécoise,fcs,queb1245
+Russian_1835,Fleri1835,Russian,ff0000,РЖЯ_1835,Russian Sign Language,59.93863,30.31413,RZhIa,Русский Жестовый Язык,rsl,russ1255
+Russian_SL,Lydell2018,Russian,ff0000,РЖЯ,Russian Sign Language,56,44,RZhIa,Русский Жестовый Язык,rsl,russ1255
+Spanish_1815,Marti1815,Spanish,ff00ff,LSE_1815,Spanish Sign Language,40.416775,-3.70379,LSE,Lengua de Signos Española,ssp,span1263
+Spanish_1845,Ballesteros1845,Spanish,ff00ff,LSE_1845,Spanish Sign Language,40.416775,-3.70379,LSE,Lengua de Signos Española,ssp,span1263
+Spanish_1859,Carderera1859,Spanish,ff00ff,LSE_1859,Spanish Sign Language,40.416775,-3.70379,LSE,Lengua de Signos Española,ssp,span1263
+Spanish_SL,Blanco2009,Spanish,ff00ff,LSE,Spanish Sign Language,40.0314,-3.70738,LSE,Lengua de Signos Española,ssp,span1263
+Swedish_1866,Paulsson1866,Swedish,0099ff,STS_1866,Swedish Sign Language,59.334591,18.06324,STS,Svenskt teckenspråk,swl,swed1236
+Swedish_SL,Svenskt2014,Swedish,0099ff,STS,Swedish Sign Language,58.93,16.11,STS,Svenskt teckenspråk,swl,swed1236
+Turkish_SL,Zeshan2003,British,0000ff,TİD,Turkish Sign Language,41.03,28.86,TID,Türk İşaret Dili,tsm,turk1288
+Ukrainian_SL,Lydell2018,Russian,ff0000,УЖМ,Ukrainian Sign Language,50.41,30.55,UZhIa/UzhM,Українська жестова мова,ukl,ukra1235
+Yebra_1593,DeYebra1593,Spanish,ff00ff,Y_1593,Yebra 1593,40.416775,-3.70379,Y1593,,,

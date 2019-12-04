@@ -1,77 +1,77 @@
-ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family
-1,Afghan_SL,,,,,,,
-2,Albanian_SL,,,,,,,
-3,American_1821,,,,,,,
-4,American_1886,,,,,,,
-5,American_1918,,,,,,,
-6,American_SL,,,,,,,
-7,Australian_SL,,,,,,,
-8,Austrian_1786,,,,,,,
-9,Austrian_1823,,,,,,,
-10,Austrian_1839,,,,,,,
-11,Austrian_SL,,,,,,,
-12,Bonet_1620,,,,,,,
-13,Brazilian_1875,,,,,,,
-14,Brazilian_SL,,,,,,,
-15,British_SL,,,,,,,
-16,Bulgarian_SL,,,,,,,
-17,Catalan_SL,,,,,,,
-18,Croatian_SL,,,,,,,
-19,Czech_SL,,,,,,,
-20,Danish_1808,,,,,,,
-21,Danish_1871,,,,,,,
-22,Danish_1907,,,,,,,
-23,Danish_1926,,,,,,,
-24,Danish_1967,,,,,,,
-25,Danish_SL,,,,,,,
-26,Dutch_1790,,,,,,,
-27,Dutch_1820,,,,,,,
-28,Dutch_SL,,,,,,,
-29,Estonian_1988,,,,,,,
-30,Estonian_SL,,,,,,,
-31,Finnish_SL,,,,,,,
-32,Flemish_SL,,,,,,,
-33,French-Belgian_SL,,,,,,,
-34,French_1800,,,,,,,
-35,French_1803,,,,,,,
-36,French_1815,,,,,,,
-37,French_1856,,,,,,,
-38,French_SL,,,,,,,
-39,German_1820,,,,,,,
-40,German_1909,,,,,,,
-41,German_1916,,,,,,,
-42,German_SL,,,,,,,
-43,Greek_SL,,,,,,,
-44,Hungary_1827,,,,,,,
-45,Icelandic_1857,,,,,,,
-46,Icelandic_SL,,,,,,,
-47,Indian_SL,,,,,,,
-48,International_MA,,,,,,,
-49,Irish_SL,,,,,,,
-50,Italian_1897,,,,,,,
-51,Italian_SL,,,,,,,
-52,Jordanian_SL,,,,,,,
-53,Latvian_SL,,,,,,,
-54,Lithuanian_SL,,,,,,,
-55,Mexican_SL,,,,,,,
-56,NewZealand_SL,,,,,,,
-57,Norwegian_1893,,,,,,,
-58,Norwegian_1900,,,,,,,
-59,Norwegian_1955,,,,,,,
-60,Norwegian_SL,,,,,,,
-61,Pakistan_SL,,,,,,,
-62,Polish_1879,,,,,,,
-63,Polish_SL,,,,,,,
-64,Portuguese_SL,,,,,,,
-65,Quebec_SL,,,,,,,
-66,Russian_1835,,,,,,,
-67,Russian_SL,,,,,,,
-68,Spanish_1815,,,,,,,
-69,Spanish_1845,,,,,,,
-70,Spanish_1859,,,,,,,
-71,Spanish_SL,,,,,,,
-72,Swedish_1866,,,,,,,
-73,Swedish_SL,,,,,,,
-74,Turkish_SL,,,,,,,
-75,Ukranian_SL,,,,,,,
-76,Yebra_1593,,,,,,,
+ID,Name,Glottocode,Glottolog_Name,ISO639P3code,Macroarea,Latitude,Longitude,Family,SubGroup
+Afghan_SL,Afghan Sign Language,afgh1239,Afghan Sign Language,afg,Eurasia,34.434167,70.447778,Sign Language,Afghan-Jordanian
+Albanian_SL,Albanian Sign Language,alba1271,Albanian Sign Language,sqk,Eurasia,41.328889,19.817778,Sign Language,Albanian
+American_1821,American Sign Language,amer1248,American Sign Language,ase,North America,40.73061,-73.935242,Sign Language,French
+American_1886,American Sign Language,amer1248,American Sign Language,ase,North America,38.895,-77.0366,Sign Language,French
+American_1918,American Sign Language,amer1248,American Sign Language,ase,North America,41.587830982,-93.61916419,Sign Language,French
+American_SL,American Sign Language,amer1248,American Sign Language,ase,North America,33.8117,-81.6121,Sign Language,French
+Australian_SL,Australian Sign Language,aust1271,Auslan,asf,Australia,-30,145,Sign Language,British
+Austrian_1786,Austrian Sign Language,aust1252,Austrian Sign Language,asq,Eurasia,48.210033,16.363449,Sign Language,Austrian
+Austrian_1823,Austrian Sign Language,aust1252,Austrian Sign Language,asq,Eurasia,48.210033,16.363449,Sign Language,Austrian
+Austrian_1839,Austrian Sign Language,aust1252,Austrian Sign Language,asq,Eurasia,48.210033,16.363449,Sign Language,French
+Austrian_SL,Austrian Sign Language,aust1252,Austrian Sign Language,asq,Eurasia,48.1197,16.225,Sign Language,Austrian
+Bonet_1620,Bonet 1620,,,,,40.416775,-3.70379,,Spanish
+Brazilian_1875,Brazilian Sign Language,braz1236,Brazilian Sign Language,bzs,South America,-22.909897,-43.185348,Sign Language,French
+Brazilian_SL,Brazilian Sign Language,braz1236,Brazilian Sign Language,bzs,South America,-15.5,-48,Sign Language,French
+British_SL,British Sign Language,brit1235,British Sign Language,bfi,Eurasia,51.6688,-0.4431,Sign Language,British
+Bulgarian_SL,Bulgarian Sign Language,bulg1240,Bulgarian Sign Language,bqn,Eurasia,42.7918,25.0026,Sign Language,Russian
+Catalan_SL,Catalan Sign Language,cata1287,Catalan Sign,,,41.63,-1.97,Sign Language,Spanish
+Croatian_SL,Croatian Sign Language,croa1242,Croatia Sign Language,csq,Eurasia,45.5,16.8,Sign Language,British
+Czech_SL,Czech Sign Language,czec1253,Czech Sign Language,cse,Eurasia,50.01,14.48,Sign Language,British
+Danish_1808,Danish Sign Language,dani1246,Danish Sign Language,dsl,Eurasia,55.676098,12.568337,Sign Language,Austrian
+Danish_1871,Danish Sign Language,dani1246,Danish Sign Language,dsl,Eurasia,55.676098,12.568337,Sign Language,Austrian
+Danish_1907,Danish Sign Language,dani1246,Danish Sign Language,dsl,Eurasia,55.676098,12.568337,Sign Language,Austrian
+Danish_1926,Danish Sign Language,dani1246,Danish Sign Language,dsl,Eurasia,55.676098,12.568337,Sign Language,Austrian
+Danish_1967,Danish Sign Language,dani1246,Danish Sign Language,dsl,Eurasia,55.676098,12.568337,Sign Language,Austrian
+Danish_SL,Danish Sign Language,dani1246,Danish Sign Language,dsl,Eurasia,55.83,12.32,Sign Language,Austrian
+Dutch_1790,Sign Language of the Netherlands,dutc1253,Dutch Sign Language,dse,Eurasia,53.2193835,6.5665018,Sign Language,French
+Dutch_1820,Sign Language of the Netherlands,dutc1253,Dutch Sign Language,dse,Eurasia,53.2193835,6.5665018,Sign Language,French
+Dutch_SL,Sign Language of the Netherlands,dutc1253,Dutch Sign Language,dse,Eurasia,52.13,4.91,Sign Language,French
+Estonian_1988,Estonian Sign Language,esto1238,Estonian Sign Language,eso,Eurasia,59.436962,24.753574,Sign Language,Russian
+Estonian_SL,Estonian Sign Language,esto1238,Estonian Sign Language,eso,Eurasia,58.95,24.57,Sign Language,Russian
+Finnish_SL,Finnish Sign Language,finn1310,Finnish Sign Language,fse,Eurasia,60.66,25.07,Sign Language,French
+Flemish_SL,Flemish Sign Language,vlaa1235,Vlaamse Gebarentaal,vgt,Eurasia,50.8,4.31,Sign Language,French
+French_1800,French Sign Language,fren1243,French Sign Language,fsl,Eurasia,48.845006,2.341291,Sign Language,French
+French_1803,French Sign Language,fren1243,French Sign Language,fsl,Eurasia,48.845006,2.341291,Sign Language,French
+French_1815,French Sign Language,fren1243,French Sign Language,fsl,Eurasia,48.845006,2.341291,Sign Language,French
+French_1856,French Sign Language,fren1243,French Sign Language,fsl,Eurasia,48.845006,2.341291,Sign Language,French
+French_SL,French Sign Language,fren1243,French Sign Language,fsl,Eurasia,47,3,Sign Language,French
+French-Belgian_SL,French-Belgian Sign Language,lang1248,Langue des signes de Belgique Francophone,sfb,Eurasia,50.8,4.31,Sign Language,French
+German_1820,German Sign Language,germ1281,German Sign Language,gsg,Eurasia,48.79947,9.79809,Sign Language,Austrian
+German_1909,German Sign Language,germ1281,German Sign Language,gsg,Eurasia,51.343479,12.387772,Sign Language,Austrian
+German_1916,German Sign Language,germ1281,German Sign Language,gsg,Eurasia,52.520008,13.404954,Sign Language,Austrian
+German_SL,German Sign Language,germ1281,German Sign Language,gsg,Eurasia,50.82,7.3,Sign Language,Austrian
+Greek_SL,Greek Sign Language,gree1271,Greek Sign Language,gss,Eurasia,38.05,23.38,Sign Language,French
+Hungary_1827,Hungarian Sign Language,hung1263,Hungarian Sign Language,hsh,Eurasia,47.77591,19.13612,Sign Language,Austrian
+Icelandic_1857,Icelandic Sign Language,icel1236,Icelandic Sign Language,icl,Eurasia,65.68353,-18.0878,Sign Language,Austrian
+Icelandic_SL,Icelandic Sign Language,icel1236,Icelandic Sign Language,icl,Eurasia,64.17,-20.27,Sign Language,Austrian
+Indian_SL,Indian Sign Languaage,indi1237,Indian Sign Language,ins,Eurasia,27.52,79.68,Sign Language,British
+International_MA,International Sign,inte1259,International Sign,ils,North America,49.74,-30.08,Sign Language,French
+Irish_SL,Irish Sign Language,iris1235,Irish Sign Language,isg,Eurasia,53.31,-6.37,Sign Language,French
+Italian_1897,Italian Sign Language,ital1275,Italian Sign Language,ise,Eurasia,45.464211,9.191383,Sign Language,French
+Italian_SL,Italian Sign Language,ital1275,Italian Sign Language,ise,Eurasia,42.73,12.43,Sign Language,French
+Jordanian_SL,Jordanian Sign Language,,,,,31.82,36.08,,Afghan-Jordanian
+Latvian_SL,Latvian Sign Language,latv1245,Latvian Sign Language,lsl,Eurasia,56.93,24.49,Sign Language,Polish
+Lithuanian_SL,Lithuainian Sign Language,lith1236,Lithuanian Sign Language,lls,Eurasia,55.25,23.88,Sign Language,Polish
+Mexican_SL,Mexican Sign Language,mexi1237,Mexican Sign Language,mfs,North America,19.75,-98.5,Sign Language,French
+NewZealand_SL,New Zealand Sign Language,newz1236,New Zealand Sign Language,nzs,Papunesia,-39.29,175.77,Sign Language,British
+Norwegian_1893,Norwegian Sign Language,norw1261,Norwegian Sign,,,59.911491,10.757933,Sign Language,Austrian
+Norwegian_1900,Norwegian Sign Language,norw1261,Norwegian Sign,,,63.446827,10.421906,Sign Language,Austrian
+Norwegian_1955,Norwegian Sign Language,norw1261,Norwegian Sign,,,63.446827,10.421906,Sign Language,Austrian
+Norwegian_SL,Norwegian Sign Language,norw1261,Norwegian Sign,,,60.77,10.24,Sign Language,Norwegian
+Pakistan_SL,Pakistan Sign Language,paki1242,Pakistan Sign Language,pks,Eurasia,28.07,67.88,Sign Language,French
+Polish_1879,Polish Sign Language,poli1259,Polish Sign Language,pso,Eurasia,52.237049,21.017532,Sign Language,Austrian
+Polish_SL,Polish Sign Language,poli1259,Polish Sign Language,pso,Eurasia,52,20.76,Sign Language,Polish
+Portuguese_SL,Portuguese Sign Language,port1277,Portuguese Sign Language,psr,Eurasia,38.55,-8.53,Sign Language,Swedish
+Quebec_SL,Quebec Sign Language,queb1245,Quebec Sign Language,fcs,North America,46,-74.87,Sign Language,French
+Russian_1835,Russian Sign Language,russ1255,Russian-Tajik Sign Language,rsl,Eurasia,59.93863,30.31413,Sign Language,Russian
+Russian_SL,Russian Sign Language,russ1255,Russian-Tajik Sign Language,rsl,Eurasia,56,44,Sign Language,Russian
+Spanish_1815,Spanish Sign Language,span1263,Spanish Sign Language,ssp,Eurasia,40.416775,-3.70379,Sign Language,Spanish
+Spanish_1845,Spanish Sign Language,span1263,Spanish Sign Language,ssp,Eurasia,40.416775,-3.70379,Sign Language,Spanish
+Spanish_1859,Spanish Sign Language,span1263,Spanish Sign Language,ssp,Eurasia,40.416775,-3.70379,Sign Language,Spanish
+Spanish_SL,Spanish Sign Language,span1263,Spanish Sign Language,ssp,Eurasia,40.0314,-3.70738,Sign Language,Spanish
+Swedish_1866,Swedish Sign Language,swed1236,Swedish Sign Language,swl,Eurasia,59.334591,18.06324,Sign Language,Swedish
+Swedish_SL,Swedish Sign Language,swed1236,Swedish Sign Language,swl,Eurasia,58.93,16.11,Sign Language,Swedish
+Turkish_SL,Turkish Sign Language,turk1288,Turkish Sign Language,tsm,Eurasia,41.03,28.86,Sign Language,British
+Ukrainian_SL,Ukrainian Sign Language,ukra1235,Ukrainian Sign Language,ukl,Eurasia,50.41,30.55,Sign Language,Russian
+Yebra_1593,Yebra 1593,,,,,40.416775,-3.70379,,Spanish
