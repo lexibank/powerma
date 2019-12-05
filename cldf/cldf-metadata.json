@@ -15,7 +15,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/powerma",
-            "dc:created": "ccf5fab"
+            "dc:created": "cbbd840"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "Concepticon",
+            "rdf:about": "https://github.com/concepticon/concepticon-data/",
+            "dc:created": "v2.2.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -28,12 +34,6 @@
             "dc:title": "CLTS",
             "rdf:about": "https://github.com/cldf-clts/clts/",
             "dc:created": "v1.4"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data/",
-            "dc:created": "v2.2.0"
         }
     ],
     "prov:wasGeneratedBy": [
