@@ -3,7 +3,7 @@
     "aboutUrl": null,
     "dc:bibliographicCitation": "Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2019): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
-    "dc:identifier": "http://dighl.github.io/signalphabets/",
+    "dc:identifier": "https://github.com/lexibank/powerma/",
     "dc:isVersionOf": null,
     "dc:license": "http://www.opensource.org/licenses/GPL-3.0",
     "dc:related": null,
@@ -15,13 +15,13 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/powerma",
-            "dc:created": "9be72d0"
+            "dc:created": "0554dba"
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4"
+            "dc:title": "Glottolog",
+            "rdf:about": "https://github.com/lingulist/glottolog-data",
+            "dc:created": "v4.0"
         },
         {
             "rdf:type": "prov:Entity",
@@ -31,9 +31,9 @@
         },
         {
             "rdf:type": "prov:Entity",
-            "dc:title": "Glottolog",
-            "rdf:about": "https://github.com/lingulist/glottolog-data",
-            "dc:created": "v4.0"
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "dc:created": "v1.4"
         }
     ],
     "prov:wasGeneratedBy": [

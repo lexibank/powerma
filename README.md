@@ -6,7 +6,7 @@ Cite the source dataset as
 
 This dataset is licensed under a GPL-3.0 license
 
-Available online at http://dighl.github.io/signalphabets/
+Available online at https://github.com/lexibank/powerma/
 
 ## Statistics
 
