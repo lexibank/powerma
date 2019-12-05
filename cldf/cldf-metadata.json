@@ -1,21 +1,27 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Power, Justin M. and List, Johann-Mattis (2019): Phylogenetic Database of Manual Alphabets. Jena: Max Planck Institute for the Science of Human History.",
+    "dc:bibliographicCitation": "Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2019): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:identifier": "http://dighl.github.io/signalphabets/",
     "dc:isVersionOf": null,
     "dc:license": "http://www.opensource.org/licenses/GPL-3.0",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "Phylogenetic Database of Manual Alphabets",
+    "dc:title": "Evolutionary Dynamics in the Dispersal of Sign Languages",
     "dcat:accessURL": "https://github.com/lexibank/powerma",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/powerma",
-            "dc:created": "cbbd840"
+            "dc:created": "9be72d0"
+        },
+        {
+            "rdf:type": "prov:Entity",
+            "dc:title": "CLTS",
+            "rdf:about": "https://github.com/cldf-clts/clts/",
+            "dc:created": "v1.4"
         },
         {
             "rdf:type": "prov:Entity",
@@ -28,12 +34,6 @@
             "dc:title": "Glottolog",
             "rdf:about": "https://github.com/lingulist/glottolog-data",
             "dc:created": "v4.0"
-        },
-        {
-            "rdf:type": "prov:Entity",
-            "dc:title": "CLTS",
-            "rdf:about": "https://github.com/cldf-clts/clts/",
-            "dc:created": "v1.4"
         }
     ],
     "prov:wasGeneratedBy": [

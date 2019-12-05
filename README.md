@@ -1,8 +1,8 @@
-# Phylogenetic Database of Manual Alphabets
+# Evolutionary Dynamics in the Dispersal of Sign Languages
 
 Cite the source dataset as
 
-> Power, Justin M. and List, Johann-Mattis (2019): Phylogenetic Database of Manual Alphabets. Jena: Max Planck Institute for the Science of Human History.
+> Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2019): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100
 
 This dataset is licensed under a GPL-3.0 license
 

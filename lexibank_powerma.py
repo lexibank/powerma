@@ -58,7 +58,7 @@ class Dataset(BaseDataset):
                     Value = h1+' '+h2,
                     Language_ID=languages[l],
                     Parameter_ID=concepts[c],
-                    Form=t,
+                    Form=' '.join(t),
                     Source=sources[l]
                     )
             args.writer.add_cognate(
