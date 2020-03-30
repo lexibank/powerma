@@ -15,7 +15,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/powerma",
-            "dc:created": "0554dba"
+            "dc:created": "1dfb30a"
         },
         {
             "rdf:type": "prov:Entity",
@@ -26,8 +26,8 @@
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
-            "rdf:about": "https://github.com/concepticon/concepticon-data/",
-            "dc:created": "v2.2.0"
+            "rdf:about": "https://github.com/concepticon/concepticon-data",
+            "dc:created": "v2.3.0-29-g207180e"
         },
         {
             "rdf:type": "prov:Entity",
@@ -39,7 +39,7 @@
     "prov:wasGeneratedBy": [
         {
             "dc:title": "python",
-            "dc:description": "3.5.2"
+            "dc:description": "3.8.2"
         },
         {
             "dc:title": "python-packages",
