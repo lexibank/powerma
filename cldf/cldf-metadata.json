@@ -1,21 +1,21 @@
 {
     "@context": "http://www.w3.org/ns/csvw",
     "aboutUrl": null,
-    "dc:bibliographicCitation": "Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2019): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100",
+    "dc:bibliographicCitation": "Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2020): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100",
     "dc:conformsTo": "http://cldf.clld.org/v1.0/terms.rdf#Wordlist",
     "dc:identifier": "https://github.com/lexibank/powerma/",
     "dc:isVersionOf": null,
     "dc:license": "http://www.opensource.org/licenses/GPL-3.0",
     "dc:related": null,
     "dc:source": "sources.bib",
-    "dc:title": "Evolutionary Dynamics in the Dispersal of Sign Languages",
+    "dc:title": "CLDF dataset accompanying Power et al.'s \"Evolutionary Dynamics in the Dispersal of Sign Languages\" from 2020",
     "dcat:accessURL": "https://github.com/lexibank/powerma",
     "prov:wasDerivedFrom": [
         {
             "rdf:type": "prov:Entity",
             "dc:title": "Repository",
             "rdf:about": "https://github.com/lexibank/powerma",
-            "dc:created": "1dfb30a"
+            "dc:created": "v1.0.0-2-gf90172c"
         },
         {
             "rdf:type": "prov:Entity",
@@ -27,7 +27,7 @@
             "rdf:type": "prov:Entity",
             "dc:title": "Concepticon",
             "rdf:about": "https://github.com/concepticon/concepticon-data",
-            "dc:created": "v2.3.0-29-g207180e"
+            "dc:created": "v2.3.0-53-g324a045"
         },
         {
             "rdf:type": "prov:Entity",
@@ -115,6 +115,14 @@
                     {
                         "datatype": "boolean",
                         "name": "Loan"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Graphemes"
+                    },
+                    {
+                        "datatype": "string",
+                        "name": "Profile"
                     }
                 ],
                 "foreignKeys": [

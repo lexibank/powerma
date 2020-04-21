@@ -1,8 +1,8 @@
-# Evolutionary Dynamics in the Dispersal of Sign Languages
+# CLDF dataset accompanying Power et al.'s "Evolutionary Dynamics in the Dispersal of Sign Languages" from 2020
 
 Cite the source dataset as
 
-> Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2019): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100
+> Power, Justin M.; Grimm, Guido; and List, Johann-Mattis (2020): Evolutionary dynamics in the dispersal of sign languages. Royal Society Open Science. DOI: 10.1098/rsos.191100
 
 This dataset is licensed under a GPL-3.0 license
 
