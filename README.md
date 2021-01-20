@@ -8,6 +8,10 @@ This dataset is licensed under a GPL-3.0 license
 
 Available online at https://github.com/lexibank/powerma/
 
+## Encoding
+
+Encoding of handshapes follow HamNoSys. Private Use Area characters are defined using the `HamNoSysUnicode.ttf` font.
+
 ## Statistics
 
 
